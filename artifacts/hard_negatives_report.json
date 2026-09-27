@@ -1,0 +1,420 @@
+{
+  "sample_size": 5000,
+  "total_hard_negatives_detected": 32372,
+  "decision_tier_counts": {
+    "GT_MATCH_REJECT_BELOW_THRESHOLDS": 8415,
+    "NON_GT_REJECT_COUNTRY_MISMATCH": 1306,
+    "NON_GT_REJECT_BELOW_THRESHOLDS": 31066
+  },
+  "triangulation_counts": {
+    "joint_s2_s3_pair": 7754
+  },
+  "sample_hard_negative_cases": [
+    {
+      "type": "FALSE_MATCH_HARD_NEGATIVE",
+      "s1_id": "S1-925783039",
+      "cand_id": "",
+      "s1_name": "Orelee's Barbershop",
+      "s1_address": "1795 Westchester Drive, High Point, NC",
+      "cand_name": "M/s Ujala School-Public",
+      "cand_address": "ROOM NO.6/404 D1 MARY LAND COMPLEX, VENGINESSERY P O, THRISSUR, കേരളം",
+      "analysis": {
+        "weighted_sim": 0.0,
+        "shared_tokens": [],
+        "max_shared_idf": 0.0,
+        "has_numeric_mismatch": false,
+        "is_generic_name_match": false,
+        "has_country_mismatch": true,
+        "is_hard_negative_risk": false,
+        "risk_reasons": [
+          "country_mismatch"
+        ]
+      },
+      "decision": "REJECT_COUNTRY_MISMATCH"
+    },
+    {
+      "type": "FALSE_MATCH_HARD_NEGATIVE",
+      "s1_id": "S1-925783039",
+      "cand_id": "",
+      "s1_name": "Orelee's Barbershop",
+      "s1_address": "1795 Westchester Drive, High Point, NC",
+      "cand_name": "Children'S Society Partners",
+      "cand_address": "701 APACHE BOULEVARD, TEMPE, AZ",
+      "analysis": {
+        "weighted_sim": 0.0,
+        "shared_tokens": [],
+        "max_shared_idf": 0.0,
+        "has_numeric_mismatch": false,
+        "is_generic_name_match": false,
+        "has_country_mismatch": false,
+        "is_hard_negative_risk": false,
+        "risk_reasons": []
+      },
+      "decision": "REJECT_BELOW_THRESHOLDS"
+    },
+    {
+      "type": "FALSE_MATCH_HARD_NEGATIVE",
+      "s1_id": "S1-925783039",
+      "cand_id": "",
+      "s1_name": "Orelee's Barbershop",
+      "s1_address": "1795 Westchester Drive, High Point, NC",
+      "cand_name": "Shanks's Interstate Pchscrl Therapy",
+      "cand_address": "BELCREST ROAD, HYATTSVILLE, MD",
+      "analysis": {
+        "weighted_sim": 0.0,
+        "shared_tokens": [],
+        "max_shared_idf": 0.0,
+        "has_numeric_mismatch": false,
+        "is_generic_name_match": false,
+        "has_country_mismatch": false,
+        "is_hard_negative_risk": false,
+        "risk_reasons": []
+      },
+      "decision": "REJECT_BELOW_THRESHOLDS"
+    },
+    {
+      "type": "FALSE_MATCH_HARD_NEGATIVE",
+      "s1_id": "S1-925783039",
+      "cand_id": "",
+      "s1_name": "Orelee's Barbershop",
+      "s1_address": "1795 Westchester Drive, High Point, NC",
+      "cand_name": "CRISLIP'S CATERIN6",
+      "cand_address": "1625 FRANKLIN AVE, OH, COLUMBUS",
+      "analysis": {
+        "weighted_sim": 0.0,
+        "shared_tokens": [],
+        "max_shared_idf": 0.0,
+        "has_numeric_mismatch": false,
+        "is_generic_name_match": false,
+        "has_country_mismatch": false,
+        "is_hard_negative_risk": false,
+        "risk_reasons": []
+      },
+      "decision": "REJECT_BELOW_THRESHOLDS"
+    },
+    {
+      "type": "FALSE_MATCH_HARD_NEGATIVE",
+      "s1_id": "S1-377745466",
+      "cand_id": "",
+      "s1_name": "B+ Retail Inc",
+      "s1_address": "1712 Montebello Avenue, Phoenix, AZ",
+      "cand_name": "WILLIAMS HARBOR CENTURION INC.",
+      "cand_address": "19320- 1ND PL, CATOOSA, OK",
+      "analysis": {
+        "weighted_sim": 0.0,
+        "shared_tokens": [],
+        "max_shared_idf": 0.0,
+        "has_numeric_mismatch": false,
+        "is_generic_name_match": false,
+        "has_country_mismatch": false,
+        "is_hard_negative_risk": false,
+        "risk_reasons": []
+      },
+      "decision": "REJECT_BELOW_THRESHOLDS"
+    },
+    {
+      "type": "FALSE_MATCH_HARD_NEGATIVE",
+      "s1_id": "S1-377745466",
+      "cand_id": "",
+      "s1_name": "B+ Retail Inc",
+      "s1_address": "1712 Montebello Avenue, Phoenix, AZ",
+      "cand_name": "Donna Ali Elite Bce Inc.",
+      "cand_address": "1421 SIPSEY FORK RD, DETROIT, AL",
+      "analysis": {
+        "weighted_sim": 0.0,
+        "shared_tokens": [],
+        "max_shared_idf": 0.0,
+        "has_numeric_mismatch": false,
+        "is_generic_name_match": false,
+        "has_country_mismatch": false,
+        "is_hard_negative_risk": false,
+        "risk_reasons": []
+      },
+      "decision": "REJECT_BELOW_THRESHOLDS"
+    },
+    {
+      "type": "FALSE_MATCH_HARD_NEGATIVE",
+      "s1_id": "S1-377745466",
+      "cand_id": "",
+      "s1_name": "B+ Retail Inc",
+      "s1_address": "1712 Montebello Avenue, Phoenix, AZ",
+      "cand_name": "Better Inc Digital Medical",
+      "cand_address": "107 JULIE LN, WV, WHITE OAK",
+      "analysis": {
+        "weighted_sim": 0.0,
+        "shared_tokens": [],
+        "max_shared_idf": 0.0,
+        "has_numeric_mismatch": false,
+        "is_generic_name_match": false,
+        "has_country_mismatch": false,
+        "is_hard_negative_risk": false,
+        "risk_reasons": []
+      },
+      "decision": "REJECT_BELOW_THRESHOLDS"
+    },
+    {
+      "type": "FALSE_MATCH_HARD_NEGATIVE",
+      "s1_id": "S1-377745466",
+      "cand_id": "",
+      "s1_name": "B+ Retail Inc",
+      "s1_address": "1712 Montebello Avenue, Phoenix, AZ",
+      "cand_name": "ON BÉRKLEY LLC",
+      "cand_address": "1708-1710 PATRICIA CT, MECAHNICSBURG, PA",
+      "analysis": {
+        "weighted_sim": 0.0,
+        "shared_tokens": [],
+        "max_shared_idf": 0.0,
+        "has_numeric_mismatch": false,
+        "is_generic_name_match": false,
+        "has_country_mismatch": false,
+        "is_hard_negative_risk": false,
+        "risk_reasons": []
+      },
+      "decision": "REJECT_BELOW_THRESHOLDS"
+    },
+    {
+      "type": "FALSE_MATCH_HARD_NEGATIVE",
+      "s1_id": "S1-377745466",
+      "cand_id": "",
+      "s1_name": "B+ Retail Inc",
+      "s1_address": "1712 Montebello Avenue, Phoenix, AZ",
+      "cand_name": "BECKMANN NET, INC",
+      "cand_address": "605 ST ENODOC CIR, PRESCOTT, AZ",
+      "analysis": {
+        "weighted_sim": 0.0,
+        "shared_tokens": [],
+        "max_shared_idf": 0.0,
+        "has_numeric_mismatch": false,
+        "is_generic_name_match": false,
+        "has_country_mismatch": false,
+        "is_hard_negative_risk": false,
+        "risk_reasons": []
+      },
+      "decision": "REJECT_BELOW_THRESHOLDS"
+    },
+    {
+      "type": "FALSE_MATCH_HARD_NEGATIVE",
+      "s1_id": "S1-377745466",
+      "cand_id": "",
+      "s1_name": "B+ Retail Inc",
+      "s1_address": "1712 Montebello Avenue, Phoenix, AZ",
+      "cand_name": "South Goh Inc",
+      "cand_address": "57 SALEM ST, BROOKVILLE, OH",
+      "analysis": {
+        "weighted_sim": 0.0,
+        "shared_tokens": [],
+        "max_shared_idf": 0.0,
+        "has_numeric_mismatch": false,
+        "is_generic_name_match": false,
+        "has_country_mismatch": false,
+        "is_hard_negative_risk": false,
+        "risk_reasons": []
+      },
+      "decision": "REJECT_BELOW_THRESHOLDS"
+    },
+    {
+      "type": "FALSE_MATCH_HARD_NEGATIVE",
+      "s1_id": "S1-755362802",
+      "cand_id": "",
+      "s1_name": "Prabhav Business Center",
+      "s1_address": "797, Lake Town Block A, Kolkata, Howrah, West Bengal",
+      "cand_name": "BELL BUILDERS CENTER LTD",
+      "cand_address": "LIG 3, B2 -004, SURYA NAGARA, CHANDAPURA ANEKAL TK, BANGALORE, Karnataka",
+      "analysis": {
+        "weighted_sim": 0.0,
+        "shared_tokens": [],
+        "max_shared_idf": 0.0,
+        "has_numeric_mismatch": false,
+        "is_generic_name_match": false,
+        "has_country_mismatch": false,
+        "is_hard_negative_risk": false,
+        "risk_reasons": []
+      },
+      "decision": "REJECT_BELOW_THRESHOLDS"
+    },
+    {
+      "type": "FALSE_MATCH_HARD_NEGATIVE",
+      "s1_id": "S1-755362802",
+      "cand_id": "",
+      "s1_name": "Prabhav Business Center",
+      "s1_address": "797, Lake Town Block A, Kolkata, Howrah, West Bengal",
+      "cand_name": "LANGE LLC [CENTER]",
+      "cand_address": "5320 81TH ST, TULSA, OK",
+      "analysis": {
+        "weighted_sim": 0.0,
+        "shared_tokens": [],
+        "max_shared_idf": 0.0,
+        "has_numeric_mismatch": false,
+        "is_generic_name_match": false,
+        "has_country_mismatch": true,
+        "is_hard_negative_risk": false,
+        "risk_reasons": [
+          "country_mismatch"
+        ]
+      },
+      "decision": "REJECT_COUNTRY_MISMATCH"
+    },
+    {
+      "type": "FALSE_MATCH_HARD_NEGATIVE",
+      "s1_id": "S1-755362802",
+      "cand_id": "",
+      "s1_name": "Prabhav Business Center",
+      "s1_address": "797, Lake Town Block A, Kolkata, Howrah, West Bengal",
+      "cand_name": "Shri Classic Pvt Ltd Center",
+      "cand_address": "FLAT NO 302 3RD FLR GOKULANANDANA RESIDENCY PB NAGAR OLD SRFILGUDA, HYDERABAD, Andhra Pradesh",
+      "analysis": {
+        "weighted_sim": 0.0,
+        "shared_tokens": [],
+        "max_shared_idf": 0.0,
+        "has_numeric_mismatch": false,
+        "is_generic_name_match": false,
+        "has_country_mismatch": false,
+        "is_hard_negative_risk": false,
+        "risk_reasons": []
+      },
+      "decision": "REJECT_BELOW_THRESHOLDS"
+    },
+    {
+      "type": "FALSE_MATCH_HARD_NEGATIVE",
+      "s1_id": "S1-851869949",
+      "cand_id": "",
+      "s1_name": "Custom Wealth Services LLC",
+      "s1_address": "OH, Columbus, 5559 Orville Avenue",
+      "cand_name": "Stag LLC",
+      "cand_address": "10729 LAFAYETTE AVENUE, SHIRLEY, IL",
+      "analysis": {
+        "weighted_sim": 0.0,
+        "shared_tokens": [],
+        "max_shared_idf": 0.0,
+        "has_numeric_mismatch": false,
+        "is_generic_name_match": false,
+        "has_country_mismatch": false,
+        "is_hard_negative_risk": false,
+        "risk_reasons": []
+      },
+      "decision": "REJECT_BELOW_THRESHOLDS"
+    },
+    {
+      "type": "FALSE_MATCH_HARD_NEGATIVE",
+      "s1_id": "S1-851869949",
+      "cand_id": "",
+      "s1_name": "Custom Wealth Services LLC",
+      "s1_address": "OH, Columbus, 5559 Orville Avenue",
+      "cand_name": "LANGE LLC [CENTER]",
+      "cand_address": "5320 81TH ST, TULSA, OK",
+      "analysis": {
+        "weighted_sim": 0.0,
+        "shared_tokens": [],
+        "max_shared_idf": 0.0,
+        "has_numeric_mismatch": false,
+        "is_generic_name_match": false,
+        "has_country_mismatch": false,
+        "is_hard_negative_risk": false,
+        "risk_reasons": []
+      },
+      "decision": "REJECT_BELOW_THRESHOLDS"
+    },
+    {
+      "type": "FALSE_MATCH_HARD_NEGATIVE",
+      "s1_id": "S1-851869949",
+      "cand_id": "",
+      "s1_name": "Custom Wealth Services LLC",
+      "s1_address": "OH, Columbus, 5559 Orville Avenue",
+      "cand_name": "Zeclarsoft, L.L.C. Services",
+      "cand_address": "789 349 STREET, PO BOX 4967, EASTLAKE, OH",
+      "analysis": {
+        "weighted_sim": 0.0,
+        "shared_tokens": [],
+        "max_shared_idf": 0.0,
+        "has_numeric_mismatch": false,
+        "is_generic_name_match": false,
+        "has_country_mismatch": false,
+        "is_hard_negative_risk": false,
+        "risk_reasons": []
+      },
+      "decision": "REJECT_BELOW_THRESHOLDS"
+    },
+    {
+      "type": "FALSE_MATCH_HARD_NEGATIVE",
+      "s1_id": "S1-851869949",
+      "cand_id": "",
+      "s1_name": "Custom Wealth Services LLC",
+      "s1_address": "OH, Columbus, 5559 Orville Avenue",
+      "cand_name": "Rushil (India) Private Limited Services",
+      "cand_address": "ANO-3-38 PLOT NO- PRAKASH ENCLAVE, CHAKERI, HAL COLONY, Uttar Pradesh",
+      "analysis": {
+        "weighted_sim": 0.0,
+        "shared_tokens": [],
+        "max_shared_idf": 0.0,
+        "has_numeric_mismatch": false,
+        "is_generic_name_match": false,
+        "has_country_mismatch": true,
+        "is_hard_negative_risk": false,
+        "risk_reasons": [
+          "country_mismatch"
+        ]
+      },
+      "decision": "REJECT_COUNTRY_MISMATCH"
+    },
+    {
+      "type": "FALSE_MATCH_HARD_NEGATIVE",
+      "s1_id": "S1-851869949",
+      "cand_id": "",
+      "s1_name": "Custom Wealth Services LLC",
+      "s1_address": "OH, Columbus, 5559 Orville Avenue",
+      "cand_name": "CHIROPRACTIC HEALTH (LLC) | www.chiropract.com",
+      "cand_address": "003924 BEL PRE ROAD, SILVER SPRING, MD",
+      "analysis": {
+        "weighted_sim": 0.0,
+        "shared_tokens": [],
+        "max_shared_idf": 0.0,
+        "has_numeric_mismatch": false,
+        "is_generic_name_match": false,
+        "has_country_mismatch": false,
+        "is_hard_negative_risk": false,
+        "risk_reasons": []
+      },
+      "decision": "REJECT_BELOW_THRESHOLDS"
+    },
+    {
+      "type": "FALSE_MATCH_HARD_NEGATIVE",
+      "s1_id": "S1-851869949",
+      "cand_id": "",
+      "s1_name": "Custom Wealth Services LLC",
+      "s1_address": "OH, Columbus, 5559 Orville Avenue",
+      "cand_name": "Autism Assistance Services",
+      "cand_address": "6812 OHIO ST, OMAHA, NE, N/A",
+      "analysis": {
+        "weighted_sim": 0.0,
+        "shared_tokens": [],
+        "max_shared_idf": 0.0,
+        "has_numeric_mismatch": false,
+        "is_generic_name_match": false,
+        "has_country_mismatch": false,
+        "is_hard_negative_risk": false,
+        "risk_reasons": []
+      },
+      "decision": "REJECT_BELOW_THRESHOLDS"
+    },
+    {
+      "type": "FALSE_MATCH_HARD_NEGATIVE",
+      "s1_id": "S1-851869949",
+      "cand_id": "",
+      "s1_name": "Custom Wealth Services LLC",
+      "s1_address": "OH, Columbus, 5559 Orville Avenue",
+      "cand_name": "Peoples & Mulligan Associates LLC",
+      "cand_address": "8215 CANJA DRIVE, FT WRTH, TX",
+      "analysis": {
+        "weighted_sim": 0.0,
+        "shared_tokens": [],
+        "max_shared_idf": 0.0,
+        "has_numeric_mismatch": false,
+        "is_generic_name_match": false,
+        "has_country_mismatch": false,
+        "is_hard_negative_risk": false,
+        "risk_reasons": []
+      },
+      "decision": "REJECT_BELOW_THRESHOLDS"
+    }
+  ]
+}

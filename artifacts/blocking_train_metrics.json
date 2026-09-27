@@ -1,0 +1,169 @@
+{
+  "evaluation": {
+    "total_entities": 10000,
+    "total_gt_ids": 34752,
+    "covered_gt_ids": 31209,
+    "overall_id_recall": 0.898049,
+    "fully_covered_entities": 7717,
+    "fully_covered_rate": 0.7717,
+    "multi_match_gt_ids": 34217,
+    "multi_match_covered": 30735,
+    "multi_match_id_recall": 0.898238,
+    "singleton_count": 560,
+    "singleton_mean_candidates": 4747.511,
+    "s2_gt_ids": 16765,
+    "s2_covered": 15015,
+    "s2_recall": 0.895616,
+    "s3_gt_ids": 17987,
+    "s3_covered": 16194,
+    "s3_recall": 0.900317,
+    "candidate_count_stats": {
+      "mean": 4755.407,
+      "median": 4660.0,
+      "p95": 7906.149999999998,
+      "p99": 9435.100000000002,
+      "max": 13942,
+      "min": 43
+    },
+    "staged_id_recall": {
+      "strong_name": 0.413501,
+      "prefix": 0.62054,
+      "rare_token": 0.637661,
+      "char_ngram": 0.787264,
+      "address_rescue": 0.898049
+    },
+    "cap_tracker_summary": {
+      "max_block_size": 500,
+      "overflow_policy": "truncate",
+      "blocks_seen": 614310,
+      "blocks_capped": 43443,
+      "capped_fraction": 0.070718,
+      "per_view_capped": {
+        "addr_numeric": 16513,
+        "prefix": 7013,
+        "char_ngram": 19917
+      }
+    },
+    "config": {
+      "chunksize": 100000,
+      "max_block_size": 500,
+      "overflow_policy": "truncate",
+      "rare_token_max_df": 50,
+      "weak_name_df_threshold": 50,
+      "ngram_n": 4,
+      "ngram_top_k": 3,
+      "prefix_len": 6,
+      "min_rare_token_len": 3,
+      "enable_ngram_view": true,
+      "enable_address_view": true
+    }
+  },
+  "index_s2_sizes": {
+    "name_index_keys": 3228671,
+    "rare_token_index_keys": 777053,
+    "prefix_index_keys": 687946,
+    "ngram_index_keys": 994051,
+    "addr_numeric_index_keys": 85938,
+    "addr_token_index_keys": 567303
+  },
+  "index_s3_sizes": {
+    "name_index_keys": 3456716,
+    "rare_token_index_keys": 837522,
+    "prefix_index_keys": 700152,
+    "ngram_index_keys": 1022250,
+    "addr_numeric_index_keys": 86183,
+    "addr_token_index_keys": 539715
+  },
+  "index_s2_weak_name_skipped": 432798,
+  "index_s3_weak_name_skipped": 516853,
+  "token_stats_vocab_sizes": {
+    "distinct_name_keys": 5745162,
+    "distinct_name_tokens": 1421394,
+    "distinct_ngrams": 951064,
+    "distinct_address_tokens": 735904
+  },
+  "largest_blocks_name_index_s2": [
+    {
+      "key": "india|इव ज ट ट टल ड ड ड पर म ल वलपरस",
+      "size": 39
+    },
+    {
+      "key": "india|इ इम इव ट ट ड पर पर फर म ल सटरकचर",
+      "size": 38
+    },
+    {
+      "key": "india|इव ई एसट ट ट ट ड पर म ल ह",
+      "size": 38
+    },
+    {
+      "key": "india|इव ट ट ड प पर म रय ल वर स",
+      "size": 37
+    },
+    {
+      "key": "india|इव ज ट ट ड पर पर परट ब ब म ल",
+      "size": 37
+    },
+    {
+      "key": "india|इ इव क ट ट टरन टस ड पर म ल शनल सलट",
+      "size": 36
+    },
+    {
+      "key": "india|अर इव ज ट ट ड त पर म ल स सरव ह",
+      "size": 36
+    },
+    {
+      "key": "india|इट इव जम ट ट ट ड न पर बर म म ल",
+      "size": 36
+    },
+    {
+      "key": "india|इन इव ट ट ट ड ड पर म म य ल व व",
+      "size": 36
+    },
+    {
+      "key": "india|इव ग ट ट टर ड ड पर म ल वन स",
+      "size": 36
+    }
+  ],
+  "largest_blocks_name_index_s3": [
+    {
+      "key": "us|unified",
+      "size": 48
+    },
+    {
+      "key": "us|little",
+      "size": 48
+    },
+    {
+      "key": "india|developers",
+      "size": 47
+    },
+    {
+      "key": "us|supreme",
+      "size": 47
+    },
+    {
+      "key": "india|af",
+      "size": 47
+    },
+    {
+      "key": "india|pc",
+      "size": 45
+    },
+    {
+      "key": "india|ae",
+      "size": 45
+    },
+    {
+      "key": "india|mc",
+      "size": 45
+    },
+    {
+      "key": "us|value",
+      "size": 44
+    },
+    {
+      "key": "india|bp",
+      "size": 44
+    }
+  ]
+}

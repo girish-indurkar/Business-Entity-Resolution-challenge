@@ -1,0 +1,52 @@
+2026-09-26 21:11:50,360 [INFO] ber.path_discovery: Searching for dataset under: ['C:\\Users\\Shakti Rajora\\Downloads', 'C:\\Users\\Shakti Rajora\\Documents', 'C:\\Users\\Shakti Rajora\\OneDrive\\Desktop\\Amazon_ML_Challenge']
+2026-09-26 21:11:50,940 [INFO] ber.path_discovery: Found extracted dataset at C:\Users\Shakti Rajora\Downloads\6ab10eb3b23ba_student_resource\student_resource
+2026-09-26 21:12:36,285 [INFO] ber.blocking: [token_stats] train_source2.tsv: 500000 rows processed
+2026-09-26 21:13:21,646 [INFO] ber.blocking: [token_stats] train_source2.tsv: 1000000 rows processed
+2026-09-26 21:14:07,228 [INFO] ber.blocking: [token_stats] train_source2.tsv: 1500000 rows processed
+2026-09-26 21:14:52,963 [INFO] ber.blocking: [token_stats] train_source2.tsv: 2000000 rows processed
+2026-09-26 21:15:38,650 [INFO] ber.blocking: [token_stats] train_source2.tsv: 2500000 rows processed
+2026-09-26 21:16:24,332 [INFO] ber.blocking: [token_stats] train_source2.tsv: 3000000 rows processed
+2026-09-26 21:17:10,120 [INFO] ber.blocking: [token_stats] train_source2.tsv: 3500000 rows processed
+2026-09-26 21:17:56,122 [INFO] ber.blocking: [token_stats] train_source2.tsv: 4000000 rows processed
+2026-09-26 21:18:42,172 [INFO] ber.blocking: [token_stats] train_source2.tsv: 4500000 rows processed
+2026-09-26 21:19:28,073 [INFO] ber.blocking: [token_stats] train_source2.tsv: 5000000 rows processed
+2026-09-26 21:19:31,258 [INFO] ber.blocking: [token_stats] train_source2.tsv: done, 5034616 rows total
+2026-09-26 21:20:16,974 [INFO] ber.blocking: [token_stats] train_source3.tsv: 500000 rows processed
+2026-09-26 21:21:02,743 [INFO] ber.blocking: [token_stats] train_source3.tsv: 1000000 rows processed
+2026-09-26 21:21:48,613 [INFO] ber.blocking: [token_stats] train_source3.tsv: 1500000 rows processed
+2026-09-26 21:22:35,285 [INFO] ber.blocking: [token_stats] train_source3.tsv: 2000000 rows processed
+2026-09-26 21:23:21,175 [INFO] ber.blocking: [token_stats] train_source3.tsv: 2500000 rows processed
+2026-09-26 21:24:07,046 [INFO] ber.blocking: [token_stats] train_source3.tsv: 3000000 rows processed
+2026-09-26 21:24:53,032 [INFO] ber.blocking: [token_stats] train_source3.tsv: 3500000 rows processed
+2026-09-26 21:25:39,048 [INFO] ber.blocking: [token_stats] train_source3.tsv: 4000000 rows processed
+2026-09-26 21:26:26,149 [INFO] ber.blocking: [token_stats] train_source3.tsv: 4500000 rows processed
+2026-09-26 21:27:12,607 [INFO] ber.blocking: [token_stats] train_source3.tsv: 5000000 rows processed
+2026-09-26 21:27:39,055 [INFO] ber.blocking: [token_stats] train_source3.tsv: done, 5285603 rows total
+2026-09-26 21:27:39,057 [INFO] ber.blocking: Token stats vocabulary sizes: {'distinct_name_keys': 5745162, 'distinct_name_tokens': 1421394, 'distinct_ngrams': 951064, 'distinct_address_tokens': 735904}
+2026-09-26 21:27:39,063 [INFO] ber.run_blocking: Token stats built in 948.1s. Vocab sizes: {'distinct_name_keys': 5745162, 'distinct_name_tokens': 1421394, 'distinct_ngrams': 951064, 'distinct_address_tokens': 735904}
+2026-09-26 21:28:50,164 [INFO] ber.blocking: [build_index:source2] 500000 rows indexed
+2026-09-26 21:30:01,722 [INFO] ber.blocking: [build_index:source2] 1000000 rows indexed
+2026-09-26 21:31:14,276 [INFO] ber.blocking: [build_index:source2] 1500000 rows indexed
+2026-09-26 21:32:25,375 [INFO] ber.blocking: [build_index:source2] 2000000 rows indexed
+2026-09-26 21:33:34,452 [INFO] ber.blocking: [build_index:source2] 2500000 rows indexed
+2026-09-26 21:34:47,403 [INFO] ber.blocking: [build_index:source2] 3000000 rows indexed
+2026-09-26 21:36:25,715 [INFO] ber.blocking: [build_index:source2] 3500000 rows indexed
+2026-09-26 21:38:27,546 [INFO] ber.blocking: [build_index:source2] 4000000 rows indexed
+2026-09-26 21:39:37,069 [INFO] ber.blocking: [build_index:source2] 4500000 rows indexed
+2026-09-26 21:40:50,922 [INFO] ber.blocking: [build_index:source2] 5000000 rows indexed
+2026-09-26 21:40:55,725 [INFO] ber.blocking: [build_index:source2] done: 5034616 records, 432798 weak-name skipped, index sizes={'name_index_keys': 3228671, 'rare_token_index_keys': 777053, 'prefix_index_keys': 687946, 'ngram_index_keys': 994051, 'addr_numeric_index_keys': 85938, 'addr_token_index_keys': 567303}
+2026-09-26 21:42:04,917 [INFO] ber.blocking: [build_index:source3] 500000 rows indexed
+2026-09-26 21:44:05,257 [INFO] ber.blocking: [build_index:source3] 1000000 rows indexed
+2026-09-26 21:46:12,149 [INFO] ber.blocking: [build_index:source3] 1500000 rows indexed
+2026-09-26 21:48:18,654 [INFO] ber.blocking: [build_index:source3] 2000000 rows indexed
+2026-09-26 21:50:34,597 [INFO] ber.blocking: [build_index:source3] 2500000 rows indexed
+2026-09-26 21:52:40,723 [INFO] ber.blocking: [build_index:source3] 3000000 rows indexed
+2026-09-26 21:54:47,176 [INFO] ber.blocking: [build_index:source3] 3500000 rows indexed
+2026-09-26 21:56:53,316 [INFO] ber.blocking: [build_index:source3] 4000000 rows indexed
+2026-09-26 21:59:12,852 [INFO] ber.blocking: [build_index:source3] 4500000 rows indexed
+2026-09-26 22:01:19,084 [INFO] ber.blocking: [build_index:source3] 5000000 rows indexed
+2026-09-26 22:02:38,082 [INFO] ber.blocking: [build_index:source3] done: 5285603 records, 516853 weak-name skipped, index sizes={'name_index_keys': 3456716, 'rare_token_index_keys': 837522, 'prefix_index_keys': 700152, 'ngram_index_keys': 1022250, 'addr_numeric_index_keys': 86183, 'addr_token_index_keys': 539715}
+2026-09-26 22:02:38,088 [INFO] ber.run_blocking: Indexes built in 2099.0s
+2026-09-26 22:02:49,055 [INFO] ber.evaluate_blocking: Loaded ground truth for 2206821 Source-1 entities
+2026-09-26 22:03:09,715 [INFO] ber.run_blocking: Evaluation finished in 31.6s
+2026-09-26 22:03:13,662 [INFO] ber.evaluate_blocking: Wrote blocking evaluation report to artifacts\blocking_train_metrics.json
